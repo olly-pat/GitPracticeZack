@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Video and Link Tests" >
+    <test name="Video Test">
+        <classes>
+            <class name="tests.VideoTest" >
+            </class>
+        </classes>
+    </test>
+    <test name="Link Test">
+        <classes>
+            <class name="tests.LinkTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Task test">
+        <classes>
+            <class name="tests.TaskTest"></class>
+        </classes>
+    </test>
+</suite>
